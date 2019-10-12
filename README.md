@@ -1,6 +1,6 @@
 # geeBulkFilter
 
-This project summarizes code in the Google Earth Engine API in order to bulk filter and export remote sensing data. These methods have been used in the following paper/thesis (https://github.com/AtreyaSh/remoteSensingThesis):
+This project summarizes code in the Google Earth Engine API in order to bulk filter and export remote sensing data. These methods have been used in the following paper/thesis (https://github.com/atreyasha/remoteSensingThesis):
 
 1. `geeBulkFilter.js` essentially imports a Landsat ImageCollection object and then conducts spatial and temporal filters. Next, it also clears clouds, cloud-shadows, water, snow and low illumination areas due to terrain-related shadows. Reprojection is also involved due to differing coordinate reference systems of datasets. Finally, an export function saves the filtered images onto Google Drive.
 
@@ -14,7 +14,7 @@ This project summarizes code in the Google Earth Engine API in order to bulk fil
 
 For simplicity, first navigate to a desired directory and clone this git repository onto your workspace:
 
-`$ git clone https://github.com/AtreyaSh/geeBulkFilter.git`
+`$ git clone https://github.com/atreyasha/geeBulkFilter.git`
 
 1. To start this process, a Google account is necessary. Next, one needs to sign up for GEE. If this is not done as yet, navigate to the following site to sign up:
 
